@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_FIFO_m_vhd_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_FIFO_m_vhd" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="541.501 ns"></ZoomEndTime>
+      <Cursor1Time time="265.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="147"></NameColumnWidth>
+      <ValueColumnWidth column_width="69"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="97" />
+   <wvobject fp_name="/TB_FIFO_m_vhd/clock_wr" type="logic">
+      <obj_property name="ElementShortName">clock_wr</obj_property>
+      <obj_property name="ObjectShortName">clock_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/reset_wr" type="logic">
+      <obj_property name="ElementShortName">reset_wr</obj_property>
+      <obj_property name="ObjectShortName">reset_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/Data_in" type="array">
+      <obj_property name="ElementShortName">Data_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_in[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/clock_rd" type="logic">
+      <obj_property name="ElementShortName">clock_rd</obj_property>
+      <obj_property name="ObjectShortName">clock_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/reset_rd" type="logic">
+      <obj_property name="ElementShortName">reset_rd</obj_property>
+      <obj_property name="ObjectShortName">reset_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/Data_output" type="array">
+      <obj_property name="ElementShortName">Data_output[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_output[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/state_out" type="array">
+      <obj_property name="ElementShortName">state_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state_out[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider15">
+      <obj_property name="label">FIFO 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/wclk_i" type="logic">
+      <obj_property name="ElementShortName">wclk_i</obj_property>
+      <obj_property name="ObjectShortName">wclk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/wrst_i" type="logic">
+      <obj_property name="ElementShortName">wrst_i</obj_property>
+      <obj_property name="ObjectShortName">wrst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/wen_i" type="logic">
+      <obj_property name="ElementShortName">wen_i</obj_property>
+      <obj_property name="ObjectShortName">wen_i</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/data_i" type="array">
+      <obj_property name="ElementShortName">data_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/full_o" type="logic">
+      <obj_property name="ElementShortName">full_o</obj_property>
+      <obj_property name="ObjectShortName">full_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/afull_o" type="logic">
+      <obj_property name="ElementShortName">afull_o</obj_property>
+      <obj_property name="ObjectShortName">afull_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/overflow_o" type="logic">
+      <obj_property name="ElementShortName">overflow_o</obj_property>
+      <obj_property name="ObjectShortName">overflow_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/wcount_o" type="array">
+      <obj_property name="ElementShortName">wcount_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">wcount_o[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/rclk_i" type="logic">
+      <obj_property name="ElementShortName">rclk_i</obj_property>
+      <obj_property name="ObjectShortName">rclk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/rrst_i" type="logic">
+      <obj_property name="ElementShortName">rrst_i</obj_property>
+      <obj_property name="ObjectShortName">rrst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/ren_i" type="logic">
+      <obj_property name="ElementShortName">ren_i</obj_property>
+      <obj_property name="ObjectShortName">ren_i</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/rcount_o" type="array">
+      <obj_property name="ElementShortName">rcount_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rcount_o[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/data_o" type="array">
+      <obj_property name="ElementShortName">data_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/empty_o" type="logic">
+      <obj_property name="ElementShortName">empty_o</obj_property>
+      <obj_property name="ObjectShortName">empty_o</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/aempty_o" type="logic">
+      <obj_property name="ElementShortName">aempty_o</obj_property>
+      <obj_property name="ObjectShortName">aempty_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/rcount" type="array">
+      <obj_property name="ElementShortName">rcount[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rcount[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/underflow_o" type="logic">
+      <obj_property name="ElementShortName">underflow_o</obj_property>
+      <obj_property name="ObjectShortName">underflow_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/valid_o" type="logic">
+      <obj_property name="ElementShortName">valid_o</obj_property>
+      <obj_property name="ObjectShortName">valid_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/wen" type="logic">
+      <obj_property name="ElementShortName">wen</obj_property>
+      <obj_property name="ObjectShortName">wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/ren" type="logic">
+      <obj_property name="ElementShortName">ren</obj_property>
+      <obj_property name="ObjectShortName">ren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/full_r" type="logic">
+      <obj_property name="ElementShortName">full_r</obj_property>
+      <obj_property name="ObjectShortName">full_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/empty_r" type="logic">
+      <obj_property name="ElementShortName">empty_r</obj_property>
+      <obj_property name="ObjectShortName">empty_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/wr_addr" type="array">
+      <obj_property name="ElementShortName">wr_addr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_addr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/rd_addr" type="array">
+      <obj_property name="ElementShortName">rd_addr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/valid_r" type="logic">
+      <obj_property name="ElementShortName">valid_r</obj_property>
+      <obj_property name="ObjectShortName">valid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/wcount" type="array">
+      <obj_property name="ElementShortName">wcount[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wcount[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/wr_ptr_r" type="array">
+      <obj_property name="ElementShortName">wr_ptr_r[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_ptr_r[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/wr_ptr" type="array">
+      <obj_property name="ElementShortName">wr_ptr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_ptr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/rd_in_wr_ptr" type="array">
+      <obj_property name="ElementShortName">rd_in_wr_ptr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_in_wr_ptr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/rd_ptr_r" type="array">
+      <obj_property name="ElementShortName">rd_ptr_r[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_ptr_r[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/rd_ptr" type="array">
+      <obj_property name="ElementShortName">rd_ptr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_ptr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/wr_in_rd_ptr" type="array">
+      <obj_property name="ElementShortName">wr_in_rd_ptr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_in_rd_ptr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/wr_bin" type="array">
+      <obj_property name="ElementShortName">wr_bin[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_bin[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/rd_in_wr_bin" type="array">
+      <obj_property name="ElementShortName">rd_in_wr_bin[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_in_wr_bin[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/rd_bin" type="array">
+      <obj_property name="ElementShortName">rd_bin[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_bin[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_1/wr_in_rd_bin" type="array">
+      <obj_property name="ElementShortName">wr_in_rd_bin[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_in_rd_bin[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider63">
+      <obj_property name="label">FIFO2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/wclk_i" type="logic">
+      <obj_property name="ElementShortName">wclk_i</obj_property>
+      <obj_property name="ObjectShortName">wclk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/wrst_i" type="logic">
+      <obj_property name="ElementShortName">wrst_i</obj_property>
+      <obj_property name="ObjectShortName">wrst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/wen_i" type="logic">
+      <obj_property name="ElementShortName">wen_i</obj_property>
+      <obj_property name="ObjectShortName">wen_i</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/data_i" type="array">
+      <obj_property name="ElementShortName">data_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/full_o" type="logic">
+      <obj_property name="ElementShortName">full_o</obj_property>
+      <obj_property name="ObjectShortName">full_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/afull_o" type="logic">
+      <obj_property name="ElementShortName">afull_o</obj_property>
+      <obj_property name="ObjectShortName">afull_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/overflow_o" type="logic">
+      <obj_property name="ElementShortName">overflow_o</obj_property>
+      <obj_property name="ObjectShortName">overflow_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/wcount_o" type="array">
+      <obj_property name="ElementShortName">wcount_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">wcount_o[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/rclk_i" type="logic">
+      <obj_property name="ElementShortName">rclk_i</obj_property>
+      <obj_property name="ObjectShortName">rclk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/rrst_i" type="logic">
+      <obj_property name="ElementShortName">rrst_i</obj_property>
+      <obj_property name="ObjectShortName">rrst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/ren_i" type="logic">
+      <obj_property name="ElementShortName">ren_i</obj_property>
+      <obj_property name="ObjectShortName">ren_i</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/rcount" type="array">
+      <obj_property name="ElementShortName">rcount[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rcount[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/empty_o" type="logic">
+      <obj_property name="ElementShortName">empty_o</obj_property>
+      <obj_property name="ObjectShortName">empty_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/aempty_o" type="logic">
+      <obj_property name="ElementShortName">aempty_o</obj_property>
+      <obj_property name="ObjectShortName">aempty_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/data_o" type="array">
+      <obj_property name="ElementShortName">data_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/underflow_o" type="logic">
+      <obj_property name="ElementShortName">underflow_o</obj_property>
+      <obj_property name="ObjectShortName">underflow_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/valid_o" type="logic">
+      <obj_property name="ElementShortName">valid_o</obj_property>
+      <obj_property name="ObjectShortName">valid_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/rcount_o" type="array">
+      <obj_property name="ElementShortName">rcount_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rcount_o[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/wen" type="logic">
+      <obj_property name="ElementShortName">wen</obj_property>
+      <obj_property name="ObjectShortName">wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/ren" type="logic">
+      <obj_property name="ElementShortName">ren</obj_property>
+      <obj_property name="ObjectShortName">ren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/full_r" type="logic">
+      <obj_property name="ElementShortName">full_r</obj_property>
+      <obj_property name="ObjectShortName">full_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/empty_r" type="logic">
+      <obj_property name="ElementShortName">empty_r</obj_property>
+      <obj_property name="ObjectShortName">empty_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/wr_addr" type="array">
+      <obj_property name="ElementShortName">wr_addr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_addr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/rd_addr" type="array">
+      <obj_property name="ElementShortName">rd_addr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/valid_r" type="logic">
+      <obj_property name="ElementShortName">valid_r</obj_property>
+      <obj_property name="ObjectShortName">valid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/wcount" type="array">
+      <obj_property name="ElementShortName">wcount[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wcount[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/wr_ptr_r" type="array">
+      <obj_property name="ElementShortName">wr_ptr_r[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_ptr_r[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/wr_ptr" type="array">
+      <obj_property name="ElementShortName">wr_ptr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_ptr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/rd_in_wr_ptr" type="array">
+      <obj_property name="ElementShortName">rd_in_wr_ptr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_in_wr_ptr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/rd_ptr_r" type="array">
+      <obj_property name="ElementShortName">rd_ptr_r[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_ptr_r[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/rd_ptr" type="array">
+      <obj_property name="ElementShortName">rd_ptr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_ptr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/wr_in_rd_ptr" type="array">
+      <obj_property name="ElementShortName">wr_in_rd_ptr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_in_rd_ptr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/wr_bin" type="array">
+      <obj_property name="ElementShortName">wr_bin[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_bin[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/rd_in_wr_bin" type="array">
+      <obj_property name="ElementShortName">rd_in_wr_bin[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_in_wr_bin[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/rd_bin" type="array">
+      <obj_property name="ElementShortName">rd_bin[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_bin[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/wr_in_rd_bin" type="array">
+      <obj_property name="ElementShortName">wr_in_rd_bin[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_in_rd_bin[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/DWIDTH" type="array">
+      <obj_property name="ElementShortName">DWIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DWIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/DEPTH" type="array">
+      <obj_property name="ElementShortName">DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/AFULLOFFSET" type="array">
+      <obj_property name="ElementShortName">AFULLOFFSET[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AFULLOFFSET[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/AEMPTYOFFSET" type="array">
+      <obj_property name="ElementShortName">AEMPTYOFFSET[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AEMPTYOFFSET[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/ASYNC" type="array">
+      <obj_property name="ElementShortName">ASYNC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ASYNC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/EVEN_DEPTH" type="array">
+      <obj_property name="ElementShortName">EVEN_DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EVEN_DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/AWIDTH" type="array">
+      <obj_property name="ElementShortName">AWIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AWIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FIFO_m_vhd/uut/FIFO_2/DIFF_DEPTH" type="array">
+      <obj_property name="ElementShortName">DIFF_DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DIFF_DEPTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>
