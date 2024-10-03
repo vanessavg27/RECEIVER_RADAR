@@ -69,3 +69,5 @@ PLLE2_ADV #(
    .PWRDWN       (1'b0      ),
    .RST          (!rstn     )
 );
+
+endmodule: red_pitaya_pll

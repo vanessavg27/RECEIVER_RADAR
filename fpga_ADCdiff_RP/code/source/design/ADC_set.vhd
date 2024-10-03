@@ -9,7 +9,7 @@ use ieee.numeric_std.all;
 library UNISIM;
 use UNISIM.VComponents.all;
 
-entity initial_conf is
+entity ADC_set is
   Generic( Bits_in :  natural :=  7;
           adc_width: natural  := 12 
   );
@@ -37,9 +37,9 @@ entity initial_conf is
             adc_signal_ch0 : out std_logic_vector(2*Bits_in-1 downto 0);
             adc_signal_ch1 : out std_logic_vector(2*Bits_in-1 downto 0)
   );
-end initial_conf;
+end ADC_set;
 
-architecture Behavioral of initial_conf is
+architecture Behavioral of ADC_set is
 
     -- PLL signals
     signal    adc_clk_in     : std_logic;
