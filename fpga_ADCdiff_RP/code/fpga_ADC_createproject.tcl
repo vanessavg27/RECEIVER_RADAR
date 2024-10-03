@@ -95,7 +95,13 @@ make_wrapper -files [get_files $origin_dir/project/$_xil_proj_name_.srcs/sources
 add_files -norecurse $origin_dir/project/$_xil_proj_name_.gen/sources_1/bd/$bdname/hdl/design_1_wrapper.v
 set_property top design_1_wrapper [current_fileset]
 
-#
+#GENERATE BIT
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
 
 
 
