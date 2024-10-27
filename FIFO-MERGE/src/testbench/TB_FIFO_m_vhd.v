@@ -20,14 +20,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 module TB_FIFO_m_vhd(
     );
- // Parámetros de prueba
+ // Parametros de prueba
     parameter n_bits = 4;
     parameter width = 16;
     parameter afulloffset = 1;
     parameter aemptyoffset = 1;
     parameter async = 1;
 
-    // Señales de prueba
+    // SeÃ±ales de prueba
     reg clock_wr;
     reg reset_wr;
     reg [n_bits-1:0] Data_in;
@@ -38,7 +38,7 @@ module TB_FIFO_m_vhd(
     wire done;
     wire [2:0] state_out;
 
-    // Instancia del módulo FIFO_merge
+    // Instancia del modulo FIFO_merge
     FIFO_merge #(
         .n_bits(n_bits),
         .width(width),
@@ -57,13 +57,13 @@ module TB_FIFO_m_vhd(
         .state_out(state_out)
     );
 
-    // Generación de reloj de escritura
+    // Generaciï¿½n de reloj de escritura
     initial begin
         clock_wr = 0;
         forever #7 clock_wr = ~clock_wr; // Reloj con periodo de 10 ns
     end
 
-    // Generación de reloj de lectura
+    // Generaciï¿½n de reloj de lectura
     initial begin
         clock_rd = 0;
         forever #5 clock_rd = ~clock_rd; // Reloj con periodo de 14 ns
@@ -79,13 +79,13 @@ module TB_FIFO_m_vhd(
             end
         end
     
-    // Generación de señales de reset y patrones de prueba
+    // Generaciï¿½n de seï¿½ales de reset y patrones de prueba
     initial begin
-        // Inicialización de señales
+        // Inicializaciï¿½n de seï¿½ales
         reset_wr = 0;
         reset_rd = 0;
         start = 0;
-        // Desactivar reset después de 20 ns
+        // Desactivar reset despuï¿½s de 20 ns
         #20 reset_wr = 1;
         reset_rd = 1;
         // Esperar algunos ciclos de reloj
